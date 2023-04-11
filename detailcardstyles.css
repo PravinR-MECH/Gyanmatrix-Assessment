@@ -1,0 +1,74 @@
+body{
+    font-family: 'Pirata One', cursive;
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+#ii{
+    width: 250px;
+    height: 125px;
+    position: absolute;
+    top: 100px;
+
+    
+}
+.container{
+    background-color: #defafa;
+    width: 100vw;
+    height: 100vh;
+    
+    
+
+}
+.details{
+    color: whitesmoke;
+    width: 70vw;
+    height: 70vh;
+    background-color: #3DB2D3;
+    margin: 0 auto;
+    border-radius: 29px;
+    /* box-shadow: inset 0 0  100px black; */
+    box-shadow: inset 6px 6px 60px 0 black, inset -6px -6px 50px 0 black;
+    display: flex;
+    justify-content: space-between;
+}
+#logo{
+    width: 250px;
+    height: 298px;
+    position: relative;
+    left:650px;
+    top: 160px;
+    margin: 0 auto;
+}
+.left img{
+    width: 276px;
+    height: 337;
+    position: relative;
+    right: 90px;
+    top: 70px;
+
+}
+.right{
+    position: relative;
+    margin: 0 auto;
+    left: 20px;
+}
+h2{
+    font-size: 64px;
+    position: relative;
+    left: -100px ;
+    text-align: center;
+    left: -200px;
+    margin-bottom: 0;
+}
+table{
+    position: relative;
+    left: -100px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+}
+td{
+    padding-right: 150px;
+    padding-bottom: 5px;
+}

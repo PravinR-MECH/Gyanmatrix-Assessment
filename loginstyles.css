@@ -1,0 +1,124 @@
+/* body{
+    
+} */
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+.container{
+    background-image:linear-gradient(to right,#030304a7,#06080aab),url(/images/photo_2023-04-11_12-25-56.jpg);
+    height: 100vh;
+    background-position:center;
+    background-size: cover;
+}
+
+.logo img{
+    width: 250px;
+    height:125.51;
+    padding-top: 8px;
+    padding-left: 29px;
+}
+h1{
+    min-width: 400PX;
+    padding-top: 60px;
+    text-align: center;
+    font-size: 3em;
+    font-weight: 500px;
+    color: white;
+}
+.log{
+    padding-top: 0;
+    width: 721px;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+     position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.email,.pass{
+    display: flex;
+    justify-content: center; 
+    padding: 20px;   
+}
+input{
+    width: 521px;
+    font-size:24px ;
+    padding: 25px;
+    padding-left: 35px;
+    border-radius: 100px;
+    background: transparent;
+    border: 3px solid #FFCD2D;
+}
+button{
+    width: 571px;
+    font-size:24px ;
+    padding: 25px 35px;
+    border-radius: 100px;
+    margin-left:70px ;
+    margin-top: 90px;
+    margin-bottom:100px ;
+    background:  #FFCD2D;
+    border: 1px solid #FFCD2D;
+}
+.copy{
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+    color: white;
+}
+@media (max-width:400px) {
+
+    .container{
+    background-image:linear-gradient(to right,#030304a7,#06080aab),url(/images/photo_2023-04-11_12-25-56.jpg);
+    /* background-image: url(images\photo_2023-04-11_12-25-56.jpg); */
+    height: 100vh;
+    width: 390px;
+    background-position:center;
+    background-size: cover;
+}
+.logo img{
+    width: 137px;
+    height:60px;
+    padding-top: 8px;
+    padding-left: 29px;
+}
+.log{
+    width: 390px;
+
+}
+h1{
+    text-align: center;
+}
+button{
+    width: 350px;
+    font-size:18px ;
+    padding: 15px;
+    border-radius: 100px;
+    margin-left: 20px;
+    margin-top: 50px;
+   
+    background:  #FFCD2D;
+    border: 1px solid #FFCD2D;
+}
+input{
+    width: 350px;
+    font-size:18px ;
+    padding: 20px;
+    padding-left: 35px;
+    border-radius: 100px;
+    background: transparent;
+    border: 3px solid #FFCD2D;
+}
+.copy{
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+    color: white;
+}
+
+
+}
+
